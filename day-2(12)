@@ -1,0 +1,2 @@
+data=sample(LETTERS,size=20)
+print(table(data[1:5]))
