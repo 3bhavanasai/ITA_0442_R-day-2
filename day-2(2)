@@ -1,0 +1,4 @@
+v1=matrix(c(1,2,3,4,5,6,7,8,9),ncol=3,nrow=3)
+v2=matrix(c(4,5,2,6,7,8,2,5,6),ncol=3,nrow=3)
+v3=matrix(c(5,3,5,8,9,3,5,2,5),ncol=3,nrow=3)
+rbind(v1[1,],v2[1,],v3[1,])
