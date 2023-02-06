@@ -1,0 +1,6 @@
+print('class of airquality')
+class(airquality)
+print("order by first and second columns: ")
+airquality[order(airquality[,1],airquality[,2]),]
+print("remove first and second columns:")
+airquality[,c(-1,-2)]
